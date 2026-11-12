@@ -1,0 +1,242 @@
+
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: #003b5c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 30px;
+    text-align:center;
+
+}
+        
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 17px;
+    padding:10px 20px;
+    font-weight:bold;
+
+}
+
+nav a:hover {
+    
+       background-color:#00a8e8;
+       border-radius:10px;
+
+       
+}
+
+/* Home Background */
+
+.hero {
+    height: 500px;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #e65100;
+}
+
+/* Search Section */
+
+.search {
+    text-align: center;
+    padding: 30px;
+}
+
+.search input {
+    width: 300px;
+    padding: 13px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search button {
+    padding: 13px 25px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tourist Places */
+
+.places {
+    padding: 30px;
+    text-align: center;
+}
+
+.places h2 {
+    color: #003b5c;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    width: 280px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    object-position:center;
+     
+
+}
+
+
+.card h3 {
+    color: #003b5c;
+    margin: 15px;
+}
+
+.card p {
+    padding: 0 15px 15px;
+    color: #555;
+}
+
+.card button {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+
+
+
+/* Login and Register Pages */
+
+.form-container {
+    width: 380px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #003b5c;
+    margin-bottom: 25px;
+}
+
+.form-container label {
+    display: block;
+    text-align: left;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #003b5c;
+}
+
+.form-container a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container p {
+    margin-bottom: 10px;
+}
+

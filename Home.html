@@ -1,0 +1,87 @@
+
+
+<html>
+<head>
+    <title>Vizag Tourism</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🌴 Vizag Tourism</h1>
+
+        <nav>
+            
+            <a href="Login.html">Login</a>
+            <a href="Register.html">Register</a>
+            <a href="Contact.html">Contact</a>
+
+            
+             </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero">
+        <h2>Welcome to Visakhapatnam</h2>
+        <p>Explore Beautiful Beaches, Hills and Tourist Places</p>
+
+        <a href="#places">
+            <button>Explore Now</button>
+        </a>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search">
+        <h2>Find Your Favourite Destination</h2>
+        <br>
+
+        <input type="text" id="searchInput"
+        placeholder="Search tourist places...">
+
+        <button onclick="searchPlace()">Search</button>
+    </section>
+
+    <!-- Tourist Places -->
+    <section class="places" id="places">
+
+
+
+        <div class="container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+                <h3>🏖️ RK Beach</h3>
+                <p>Enjoy beautiful sea views and peaceful beach atmosphere.</p>
+                <button onclick="showInfo('RK Beach')">Explore</button>
+            </div>
+
+            <div class="card">
+                <img src="C:\Users\dell\Documents\Vara project\temple1.jfif">
+                <h3>⛰️ Kailasagiri</h3>
+                <p>Enjoy amazing hilltop views and natural scenery.</p>
+                <button onclick="showInfo('Kailasagiri')">Explore</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5">
+                <h3>🚢 Submarine Museum</h3>
+                <p>Discover the famous submarine museum near RK Beach.</p>
+                <button onclick="showInfo('Submarine Museum')">Explore</button>
+            </div>
+
+            <div class="card">
+                <img src="C:\Users\dell\Documents\Vara project\temple2.jfif">
+                <h3>🛕 Simhachalam Temple</h3>
+                <p>Experience beautiful nature and peaceful Temple views.</p>
+                <button onclick="showInfo('Yarada Beach')">Explore</button>
+            </div>
+
+        </div>
+    </section>
+
+   
+
+</body>
+</html>
